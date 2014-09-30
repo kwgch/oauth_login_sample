@@ -40,4 +40,15 @@ gem 'spring',        group: :development
 
 gem 'devise'
 gem 'omniauth-github'
-gem "figaro"
+gem 'figaro'
+
+group :test do
+  gem 'rspec'
+  gem 'rspec-rails'
+  
+  gem 'factory_girl_rails'
+	gem 'faker'
+#   gem "capybara"
+#   gem "database_cleaner"
+#   gem "launchy"
+end
